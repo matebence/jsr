@@ -24,7 +24,10 @@ JSON with Java is most used in
 - NoSQL
 
 **JSON-B**
-Converting from JSON to java POJOs. Provides serialization and deserialization of Java objects to JSON. Setter methods are used during deserialization and getters method during serilization. If a field is private and doesnt have a public getter method then the property wont be visible in JSON output.
+Converting from JSON to java POJOs. \
+Provides serialization and deserialization of Java objects to JSON. \
+Setter methods are used during deserialization and getters method during serilization. \
+If a field is private and doesnt have a public getter method then the property wont be visible in JSON output.
 
 - @JsonbCreator - Is used to tell JSON-B that the Java object has a constructor (a "creator") which can match the fields of a JSON object to the fields of the Java object
 - @JsonbDateFormat - A general purpose annotation which can be used to serialize a particular type into a specific format
@@ -39,7 +42,10 @@ Converting from JSON to java POJOs. Provides serialization and deserialization o
 - @JsonbVisibility - Is used to create custom visibility strategies
 
 **JSON-P**
-Additional support for JSON. JSONPointer for proerty acces with path expression. JSONPatch for modifying JSON with path expression. Generating and parsing JSON data, two programing models:
+Additional support for JSON. \
+JSONPointer for proerty acces with path expression. \
+JSONPatch for modifying JSON with path expression. \
+Generating and parsing JSON data, two programing models:
 - Object model
 	- Tree represented JSON data
 	- Navigate analyze and modify
