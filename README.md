@@ -23,7 +23,7 @@ JSON with Java is most used in
 - Auth
 - NoSQL
 
-**JSON-B**
+**JSON-B** \
 Converting from JSON to java POJOs. \
 Provides serialization and deserialization of Java objects to JSON. \
 Setter methods are used during deserialization and getters method during serilization. \
@@ -41,7 +41,7 @@ If a field is private and doesnt have a public getter method then the property w
 - @JsonbTypeSerializer - Is used to create alternative option for serialization
 - @JsonbVisibility - Is used to create custom visibility strategies
 
-**JSON-P**
+**JSON-P** \
 Additional support for JSON. \
 JSONPointer for proerty acces with path expression. \
 JSONPatch for modifying JSON with path expression. \
