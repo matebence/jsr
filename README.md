@@ -188,10 +188,10 @@ public class Bag {
 ```java
 public class Person {
 
-	@Getter
+    @Getter
     private long id;
 
-	@Getter
+    @Getter
     private String name;
 
     @JsonCreator
@@ -349,13 +349,13 @@ public class OptimizedBooleanSerializer extends JsonSerializer<Boolean> {
 ```java
 public class Car {
 	
-	@Getter
-	@Setter
+    @Getter
+    @Setter
     private String color;
 
 
-	@Getter
-	@Setter
+    @Getter
+    @Setter
     private String type;
 }
 ```
